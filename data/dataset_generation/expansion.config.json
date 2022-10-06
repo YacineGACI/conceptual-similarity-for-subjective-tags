@@ -1,0 +1,317 @@
+{
+    "aspect": [
+        {
+            "name": "WordNetExpansion",
+            "params": {
+                "num_synsets": 3,
+                "hyponym": true,
+                "meronym": true,
+                "hypernym": true,
+                "sisters": true
+            }
+        },
+
+        {
+            "name": "WordNetExpansion",
+            "params": {
+                "num_synsets": 10,
+                "hyponym": true,
+                "meronym": true,
+                "hypernym": true,
+                "sisters": false
+            }
+        },
+
+        {
+            "name": "WordNetExpansion",
+            "params": {
+                "num_synsets": 5,
+                "hyponym": true,
+                "meronym": false,
+                "hypernym": true,
+                "sisters": true
+            }
+        },
+
+
+
+
+
+
+
+
+
+
+        {
+            "name": "ConceptNetExpansion",
+            "params": {
+                "capacity": 3,
+                "minimum_weight": 2.0,
+                "second_level_expansion": true
+            }
+        },
+
+        {
+            "name": "ConceptNetExpansion",
+            "params": {
+                "capacity": 5,
+                "minimum_weight": 3.0,
+                "second_level_expansion": true
+            }
+        },
+
+        {
+            "name": "ConceptNetExpansion",
+            "params": {
+                "capacity": 10,
+                "minimum_weight": 1.0,
+                "second_level_expansion": false
+            }
+        },
+
+
+
+
+
+
+
+
+        {
+            "name": "MaskedLMExpansion",
+            "params": {
+                "model": "bert-base-uncased",
+                "top_k": 10
+            }
+        },
+
+        {
+            "name": "MaskedLMExpansion",
+            "params": {
+                "model": "bert-base-uncased",
+                "top_k": 20
+            }
+        },
+
+        {
+            "name": "MaskedLMExpansion",
+            "params": {
+                "model": "bert-large-uncased",
+                "top_k": 10
+            }
+        },
+
+        {
+            "name": "MaskedLMExpansion",
+            "params": {
+                "model": "bert-large-uncased",
+                "top_k": 20
+            }
+        },
+
+        {
+            "name": "MaskedLMExpansion",
+            "params": {
+                "model": "roberta-large",
+                "top_k": 10
+            }
+        },
+
+        {
+            "name": "MaskedLMExpansion",
+            "params": {
+                "model": "roberta-large",
+                "top_k": 20
+            }
+        },
+
+        {
+            "name": "MaskedLMExpansion",
+            "params": {
+                "model": "albert-large-v2",
+                "top_k": 10
+            }
+        },
+
+        {
+            "name": "MaskedLMExpansion",
+            "params": {
+                "model": "albert-large-v2",
+                "top_k": 20
+            }
+        },
+
+
+
+
+
+
+
+
+
+        {
+            "name": "T5Expansion",
+            "params": {
+                "t5_path": "google/t5-v1_1-base",
+                "num_return_sequences": 20,
+                "max_length": 3,
+                "num_beams": 200
+            }
+        },
+
+        {
+            "name": "T5Expansion",
+            "params": {
+                "t5_path": "google/t5-v1_1-base",
+                "num_return_sequences": 10,
+                "max_length": 3,
+                "num_beams": 50
+            }
+        },
+
+
+
+
+
+
+
+
+        {
+            "name": "TextGenerationExpansion",
+            "params": {
+                "model": "gpt2",
+                "num_return_sequences": 20,
+                "max_length": 1,
+                "num_beams": 200
+            }
+        },
+
+        {
+            "name": "TextGenerationExpansion",
+            "params": {
+                "model": "gpt2",
+                "num_return_sequences": 20,
+                "max_length": 2,
+                "num_beams": 200
+            }
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "name": "WordEmbeddingExpansion",
+            "params": {
+                "embeddings_filepath": "embeddings/pickled/word2vec.pkl",
+                "num_words": 20,
+                "distance_metric": "euclidean"
+            }
+        },
+
+        {
+            "name": "WordEmbeddingExpansion",
+            "params": {
+                "embeddings_filepath": "embeddings/pickled/word2vec.pkl",
+                "num_words": 20,
+                "distance_metric": "cosine"
+            }
+        },
+
+        {
+            "name": "WordEmbeddingExpansion",
+            "params": {
+                "embeddings_filepath": "embeddings/pickled/glove.pkl",
+                "num_words": 20,
+                "distance_metric": "euclidean"
+            }
+        },
+
+        {
+            "name": "WordEmbeddingExpansion",
+            "params": {
+                "embeddings_filepath": "embeddings/pickled/glove.pkl",
+                "num_words": 20,
+                "distance_metric": "cosine"
+            }
+        },
+
+        {
+            "name": "WordEmbeddingExpansion",
+            "params": {
+                "embeddings_filepath": "embeddings/pickled/fasttext.pkl",
+                "num_words": 20,
+                "distance_metric": "euclidean"
+            }
+        },
+
+        {
+            "name": "WordEmbeddingExpansion",
+            "params": {
+                "embeddings_filepath": "embeddings/pickled/fasttext.pkl",
+                "num_words": 20,
+                "distance_metric": "cosine"
+            }
+        },
+
+        {
+            "name": "WordEmbeddingExpansion",
+            "params": {
+                "embeddings_filepath": "embeddings/pickled/paragram.pkl",
+                "num_words": 20,
+                "distance_metric": "euclidean"
+            }
+        },
+
+        {
+            "name": "WordEmbeddingExpansion",
+            "params": {
+                "embeddings_filepath": "embeddings/pickled/paragram.pkl",
+                "num_words": 20,
+                "distance_metric": "cosine"
+            }
+        },
+
+        {
+            "name": "WordEmbeddingExpansion",
+            "params": {
+                "embeddings_filepath": "embeddings/pickled/conceptnet.pkl",
+                "num_words": 20,
+                "distance_metric": "euclidean"
+            }
+        },
+
+        {
+            "name": "WordEmbeddingExpansion",
+            "params": {
+                "embeddings_filepath": "embeddings/pickled/conceptnet.pkl",
+                "num_words": 20,
+                "distance_metric": "cosine"
+            }
+        }
+
+    ],
+
+
+
+
+
+
+
+
+
+    "opinion": {
+        "filtering_strategy": "both",
+        "lm": "gpt2",
+        "mlm": "bert-base-uncased",
+        "capacity": 3,
+        "std_factor": 1.0
+    }
+}

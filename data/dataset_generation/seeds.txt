@@ -1,0 +1,47 @@
+Price
+price, cost, payment
+low, good, fair, acceptable, cheap, not too expensive, affordable, great
+expensive, exaggerated, costly, overpriced, high, pricy
+
+Food
+food, menu, plate, cuisine, meal, lunch, dinner, breakfast, cooking, snack, beverage, drink, pizza, pasta, chicken, meat, steak, rice, soup, dessert, dish, fish, salad
+tasty, good, excellent, succulent, okay, delicious, well seasoned, perfectly cooked
+bad, flavorless, bland, not seasoned, cold, disgusting, unappetizing, flat, gross, boring, awful, terrible, dry
+healthy, organic, high quality, fresh
+novel, interesting, creative
+
+Service
+staff, waiter, waitress, cashier, service
+friendly, smiling, good, helpful, likable
+knowledgable, quick, fast, efficient, high quality, professional
+grumpy, horrible, slow, irritating, bad
+
+Cleaning
+place, hygiene, kitchen, bathroom, utensils, plates, cutlery, silverware, trays, dishes, table, chair, furniture
+clean, impeccable, bright, lavish, luxurious, washed, shining
+dirty, bad, in bad shape, stained, greasy, not washed, poor, disgusting
+
+Parking
+parking, parking lot, parking area, parking convenience, parking space
+free, available, empty, safe, large
+unavailable, poor, narrow, small, hard to find
+
+Environment
+place, environment, setting, surroundings, decor, lighting, music, ventilation, furniture, air conditioning, air conditioner
+good, excellent, great, cozy, comfortable, sophisticated, good taste, pleasant, memorable, adequate, beautiful, soothing, calming, fancy, attractive, happy, relaxing, nice, charming
+bad, horrible, bad taste, uncomfortable, dark, noisy, terrible, crowded, sad, depressing, boring
+
+Location
+location, area, place, address
+near, good, downtown, lively, touristy, popular, secure, safe, good, trustable
+far, bad, polluted, remote, dark, unsafe, unsecure, dangerous
+
+Menu
+menu, selection, list, choice, choices, option, options
+wide, large, varied, variety, good, excellent, creative
+small, shabby, narrow, bad
+
+Ambiance
+ambiance, atmosphere, air, experience, environment, setting, decor, lighting, music, ventilation, furniture
+cozy, good, excellent, romantic, nice, upscale, trendy, loved, enjoyed, fun
+horrible, terrible, disgusting, bad, not good, disappointing, noisy, dark, depressing, boring
